@@ -1,2 +1,2 @@
 # dirsec-server
-The actual server itself that runs the game.
+Premium quality Team Fortress 2 gameserver, made with minimal plugins and optimized for the iconic vanilla experience.
