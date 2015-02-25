@@ -1,0 +1,39 @@
+L 02/01/2015 - 12:23:09: SourceMod error session started
+L 02/01/2015 - 12:23:09: Info (map "ctf_freezers_v2") (file "errors_20150201.log")
+L 02/01/2015 - 12:23:09: Error log file session closed.
+L 02/01/2015 - 12:26:25: SourceMod error session started
+L 02/01/2015 - 12:26:25: Info (map "pl_borneo_rc3") (file "errors_20150201.log")
+L 02/01/2015 - 12:26:25: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 12:26:25: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 12:26:38: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 12:26:38: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 14:54:51: Error log file session closed.
+L 02/01/2015 - 14:55:00: SourceMod error session started
+L 02/01/2015 - 14:55:00: Info (map "pl_boundary_final") (file "errors_20150201.log")
+L 02/01/2015 - 14:55:00: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 14:55:00: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 15:33:07: Error log file session closed.
+L 02/01/2015 - 15:33:16: SourceMod error session started
+L 02/01/2015 - 15:33:16: Info (map "pl_boundary_final1") (file "errors_20150201.log")
+L 02/01/2015 - 15:33:16: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 15:33:16: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 17:17:13: Error log file session closed.
+L 02/01/2015 - 17:17:22: SourceMod error session started
+L 02/01/2015 - 17:17:22: Info (map "cp_aqua") (file "errors_20150201.log")
+L 02/01/2015 - 17:17:22: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 17:17:22: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 18:01:57: Error log file session closed.
+L 02/01/2015 - 18:02:05: SourceMod error session started
+L 02/01/2015 - 18:02:05: Info (map "cp_axle_rc1") (file "errors_20150201.log")
+L 02/01/2015 - 18:02:05: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 18:02:05: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 18:59:03: Error log file session closed.
+L 02/01/2015 - 18:59:11: SourceMod error session started
+L 02/01/2015 - 18:59:11: Info (map "cp_bazillion_rc5") (file "errors_20150201.log")
+L 02/01/2015 - 18:59:11: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 18:59:11: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 02/01/2015 - 19:45:35: Error log file session closed.
+L 02/01/2015 - 19:45:44: SourceMod error session started
+L 02/01/2015 - 19:45:44: Info (map "cp_beamvalley_v2") (file "errors_20150201.log")
+L 02/01/2015 - 19:45:44: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 02/01/2015 - 19:45:44: [SM] Error on line 15 (col 12): A property was declared outside of a section

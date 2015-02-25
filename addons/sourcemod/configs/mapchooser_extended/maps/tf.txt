@@ -1,0 +1,97 @@
+// cp_bloodstrained
+// cp_warpath2
+// ctf_barn
+// dm_biosphere_v3
+// koth_sunset_saloon_b1r1
+// koth_trainsawlaser_rc1
+// cp_desertfortress
+// ctf_atrophy_b3
+// ctf_quarry
+// pl_swiftwater
+// sd_hunted
+// tc_atlantic_v1
+// tr_walkway_rc2
+cp_beamvalley_v2
+cp_carpo_b3
+cp_croissant_final
+cp_fallout
+cp_follower
+cp_freightyard_b4c
+cp_furnace_rc
+cp_glacier_rc6
+cp_glassworks_rc2
+cp_gydan
+cp_keikoku_rc1
+cp_labor
+cp_logjam_b10
+//cp_meleebarn
+cp_overflow_2
+cp_redstone_b2
+cp_snowplow_rc3
+cp_starship_b3
+cp_stoneyridge_rc1
+cp_switchback_b5
+cp_tidal_v4
+cp_upland_rc4
+cp_vanguard_b9
+cp_vector_v1
+cp_vertigo_beta3
+ctf_aerospace_b3
+ctf_backwards_b1
+ctf_casbah3_b4
+ctf_convoy_v2
+ctf_fishy_b4
+ctf_fusion_b2
+ctf_geothermal_b2
+ctf_haarp
+ctf_installation_v2
+ctf_landfall_rc
+ctf_laynedecker
+ctf_mercy
+ctf_premuda_b1b
+ctf_quarry_v2
+ctf_subterranean
+ctf_wildfire_rc
+ctf_wiretap_b1
+dom_cliffhanger_b11
+koth_arctic_b3
+koth_garbage_day
+koth_lighthouse_rc5
+koth_moonshine_rc
+koth_namicott_rc4
+koth_occult_rc3
+koth_oilfield
+koth_probed_b6
+koth_quarry_rc5
+koth_skyward_b2
+koth_waste
+koth_watermill_final
+pl_5curve
+pl_angkor_rc1
+pl_auriferous_rc7
+pl_beerbowl_b6c
+pl_borax_rc2
+pl_borneo_rc3
+pl_boundary_final
+pl_boxcanyon_RC1
+pl_cashworks_final1
+pl_cave_b6
+pl_cranetop_b8
+pl_deadwood
+pl_effigy_b5
+pl_goldrock_rc1
+pl_great_heights_b3
+pl_halfacre
+pl_jordan_canyon_final
+pl_manngrove_rc5
+pl_metropolis_b5
+pl_millstone_rc11
+pl_outback_rc4
+pl_pier_b16
+pl_repository_rc3
+pl_swiftwater_ugc
+pl_waste_v2
+pl_woodland_final
+plr_panic_b2
+plr_whalerace_a4a
+

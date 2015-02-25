@@ -1,0 +1,127 @@
+L 01/25/2015 - 05:33:59: SourceMod error session started
+L 01/25/2015 - 05:33:59: Info (map "pl_woodland_final") (file "errors_20150125.log")
+L 01/25/2015 - 05:33:59: Error log file session closed.
+L 01/25/2015 - 05:34:10: SourceMod error session started
+L 01/25/2015 - 05:34:10: Info (map "pl_woodland_final") (file "errors_20150125.log")
+L 01/25/2015 - 05:34:10: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 05:34:10: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 05:41:36: Error log file session closed.
+L 01/25/2015 - 05:41:47: SourceMod error session started
+L 01/25/2015 - 05:41:47: Info (map "pl_metropolis_b5") (file "errors_20150125.log")
+L 01/25/2015 - 05:41:47: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 05:41:47: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 06:00:42: Error log file session closed.
+L 01/25/2015 - 06:00:53: SourceMod error session started
+L 01/25/2015 - 06:00:53: Info (map "ctf_laynedecker") (file "errors_20150125.log")
+L 01/25/2015 - 06:00:53: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 06:00:53: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 06:26:47: Error log file session closed.
+L 01/25/2015 - 06:26:57: SourceMod error session started
+L 01/25/2015 - 06:26:57: Info (map "ctf_mercy") (file "errors_20150125.log")
+L 01/25/2015 - 06:26:57: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 06:26:57: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 07:24:24: Error log file session closed.
+L 01/25/2015 - 07:24:34: SourceMod error session started
+L 01/25/2015 - 07:24:34: Info (map "ctf_mexico_b4") (file "errors_20150125.log")
+L 01/25/2015 - 07:24:34: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 07:24:34: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 10:14:58: Error log file session closed.
+L 01/25/2015 - 10:15:09: SourceMod error session started
+L 01/25/2015 - 10:15:09: Info (map "cp_croissant_final") (file "errors_20150125.log")
+L 01/25/2015 - 10:15:09: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 10:15:09: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 10:21:47: Error log file session closed.
+L 01/25/2015 - 10:21:58: SourceMod error session started
+L 01/25/2015 - 10:21:58: Info (map "cp_glacier_rc6") (file "errors_20150125.log")
+L 01/25/2015 - 10:21:58: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 10:21:58: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 10:45:41: Error log file session closed.
+L 01/25/2015 - 10:45:51: SourceMod error session started
+L 01/25/2015 - 10:45:51: Info (map "pl_nat20_b2b") (file "errors_20150125.log")
+L 01/25/2015 - 10:45:51: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 10:45:51: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 11:07:48: Error log file session closed.
+L 01/25/2015 - 11:07:59: SourceMod error session started
+L 01/25/2015 - 11:07:59: Info (map "pl_pier_b16") (file "errors_20150125.log")
+L 01/25/2015 - 11:07:59: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 11:07:59: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 12:02:41: Error log file session closed.
+L 01/25/2015 - 12:02:51: SourceMod error session started
+L 01/25/2015 - 12:02:51: Info (map "pl_problematique_a3") (file "errors_20150125.log")
+L 01/25/2015 - 12:02:51: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 12:02:51: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 12:19:51: Error log file session closed.
+L 01/25/2015 - 12:20:02: SourceMod error session started
+L 01/25/2015 - 12:20:02: Info (map "plr_panic_b2") (file "errors_20150125.log")
+L 01/25/2015 - 12:20:02: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 12:20:02: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 12:42:15: Error log file session closed.
+L 01/25/2015 - 12:42:26: SourceMod error session started
+L 01/25/2015 - 12:42:26: Info (map "cp_mainline_rc5") (file "errors_20150125.log")
+L 01/25/2015 - 12:42:26: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 12:42:26: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 12:55:19: Error log file session closed.
+L 01/25/2015 - 12:55:29: SourceMod error session started
+L 01/25/2015 - 12:55:29: Info (map "cp_indulge") (file "errors_20150125.log")
+L 01/25/2015 - 12:55:29: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 12:55:29: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 13:07:41: Error log file session closed.
+L 01/25/2015 - 13:07:52: SourceMod error session started
+L 01/25/2015 - 13:07:52: Info (map "pl_waste_v2") (file "errors_20150125.log")
+L 01/25/2015 - 13:07:52: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 13:07:52: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 13:49:01: Error log file session closed.
+L 01/25/2015 - 13:49:12: SourceMod error session started
+L 01/25/2015 - 13:49:12: Info (map "pl_swiftwater_ugc") (file "errors_20150125.log")
+L 01/25/2015 - 13:49:12: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 13:49:12: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 14:06:49: Error log file session closed.
+L 01/25/2015 - 14:07:00: SourceMod error session started
+L 01/25/2015 - 14:07:00: Info (map "cp_glassworks_rc3") (file "errors_20150125.log")
+L 01/25/2015 - 14:07:00: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 14:07:00: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 14:39:53: Error log file session closed.
+L 01/25/2015 - 14:40:04: SourceMod error session started
+L 01/25/2015 - 14:40:04: Info (map "pl_pier_b16") (file "errors_20150125.log")
+L 01/25/2015 - 14:40:04: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 14:40:04: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 15:02:27: Error log file session closed.
+L 01/25/2015 - 15:02:38: SourceMod error session started
+L 01/25/2015 - 15:02:38: Info (map "cp_redfort_b6") (file "errors_20150125.log")
+L 01/25/2015 - 15:02:38: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 15:02:38: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 15:27:30: Error log file session closed.
+L 01/25/2015 - 15:27:41: SourceMod error session started
+L 01/25/2015 - 15:27:41: Info (map "pl_waste_v2") (file "errors_20150125.log")
+L 01/25/2015 - 15:27:41: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 15:27:41: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 15:54:33: Error log file session closed.
+L 01/25/2015 - 15:54:44: SourceMod error session started
+L 01/25/2015 - 15:54:44: Info (map "ctf_frosty_b1") (file "errors_20150125.log")
+L 01/25/2015 - 15:54:44: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 15:54:44: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 16:36:06: Error log file session closed.
+L 01/25/2015 - 16:36:17: SourceMod error session started
+L 01/25/2015 - 16:36:17: Info (map "cp_snowplow_rc3") (file "errors_20150125.log")
+L 01/25/2015 - 16:36:17: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 16:36:17: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 16:48:07: Error log file session closed.
+L 01/25/2015 - 16:48:18: SourceMod error session started
+L 01/25/2015 - 16:48:18: Info (map "koth_railbridge_rc2") (file "errors_20150125.log")
+L 01/25/2015 - 16:48:18: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 16:48:18: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 18:15:27: Error log file session closed.
+L 01/25/2015 - 18:15:38: SourceMod error session started
+L 01/25/2015 - 18:15:38: Info (map "cp_silvertrail_rc2") (file "errors_20150125.log")
+L 01/25/2015 - 18:15:38: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 18:15:38: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 18:26:35: Error log file session closed.
+L 01/25/2015 - 18:26:46: SourceMod error session started
+L 01/25/2015 - 18:26:46: Info (map "ctf_system_rc1") (file "errors_20150125.log")
+L 01/25/2015 - 18:26:46: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 18:26:46: [SM] Error on line 15 (col 12): A property was declared outside of a section
+L 01/25/2015 - 19:16:02: Error log file session closed.
+L 01/25/2015 - 19:16:13: SourceMod error session started
+L 01/25/2015 - 19:16:13: Info (map "koth_desolation_rc1") (file "errors_20150125.log")
+L 01/25/2015 - 19:16:13: [SM] Could not parse file "/home/gameserver/tf2server/tf2/tf/addons/sourcemod/configs/maplists.cfg"
+L 01/25/2015 - 19:16:13: [SM] Error on line 15 (col 12): A property was declared outside of a section

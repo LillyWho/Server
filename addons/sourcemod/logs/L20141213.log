@@ -1,0 +1,49 @@
+L 12/13/2014 - 03:16:06: SourceMod log file session started (file "L20141213.log") (Version "1.6.3")
+L 12/13/2014 - 03:16:06: Log file closed.
+L 12/13/2014 - 03:16:55: SourceMod log file session started (file "L20141213.log") (Version "1.6.3")
+L 12/13/2014 - 03:16:55: -------- Mapchange to pl_borneo_rc3 --------
+L 12/13/2014 - 04:06:33: -------- Mapchange to cp_fallout --------
+L 12/13/2014 - 04:13:31: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 04:32:13: -------- Mapchange to cp_croissant_final --------
+L 12/13/2014 - 04:39:37: -------- Mapchange to cp_labor --------
+L 12/13/2014 - 04:44:52: -------- Mapchange to pl_swiftwater --------
+L 12/13/2014 - 06:03:35: -------- Mapchange to cp_fallout --------
+L 12/13/2014 - 06:26:05: -------- Mapchange to cp_croissant_final --------
+L 12/13/2014 - 06:40:17: -------- Mapchange to ctf_convoy_v2 --------
+L 12/13/2014 - 07:30:07: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 08:30:18: -------- Mapchange to cp_beamvalley_v2 --------
+L 12/13/2014 - 09:25:03: -------- Mapchange to cp_fallout --------
+L 12/13/2014 - 09:33:30: -------- Mapchange to dom_cliffhanger_b11 --------
+L 12/13/2014 - 09:53:44: -------- Mapchange to cp_croissant_final --------
+L 12/13/2014 - 10:11:33: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 10:35:43: -------- Mapchange to cp_glassworks_rc2 --------
+L 12/13/2014 - 11:01:48: -------- Mapchange to pl_swiftwater --------
+L 12/13/2014 - 11:38:43: -------- Mapchange to cp_fallout --------
+L 12/13/2014 - 11:51:06: -------- Mapchange to cp_follower --------
+L 12/13/2014 - 12:11:46: -------- Mapchange to cp_tidal_v4 --------
+L 12/13/2014 - 12:38:26: -------- Mapchange to ctf_wiretap_b1 --------
+L 12/13/2014 - 12:47:32: [basebans.smx] "Console<0><Console><Console>" removed ban (filter "STEAM_0:1:54657290")
+L 12/13/2014 - 12:48:12: [basebans.smx] "Console<0><Console><Console>" removed ban (filter "0:1:54657290")
+L 12/13/2014 - 12:48:42: [basebans.smx] "Console<0><Console><Console>" removed ban (filter "STEAM_0:1:54657290")
+L 12/13/2014 - 12:52:42: [basebans.smx] "Console<0><Console><Console>" removed ban (filter "STEAM_0:1:54657290")
+L 12/13/2014 - 13:12:24: -------- Mapchange to koth_arctic_b3 --------
+L 12/13/2014 - 13:18:15: -------- Mapchange to pl_cashworks_final1 --------
+L 12/13/2014 - 13:36:45: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 13:50:10: -------- Mapchange to dom_cliffhanger_b11 --------
+L 12/13/2014 - 14:10:05: -------- Mapchange to pl_goldrock_rc1 --------
+L 12/13/2014 - 14:29:26: -------- Mapchange to cp_gydan --------
+L 12/13/2014 - 14:46:24: -------- Mapchange to cp_croissant_final --------
+L 12/13/2014 - 15:04:03: -------- Mapchange to cp_vertigo_beta3 --------
+L 12/13/2014 - 15:20:03: -------- Mapchange to pl_swiftwater --------
+L 12/13/2014 - 15:40:51: [basecommands.smx] "peterpacz1<144><STEAM_0:1:40949914><>" changed map to "cp_vector_v1"
+L 12/13/2014 - 15:40:54: [SM] Changed map to "cp_vector_v1"
+L 12/13/2014 - 15:40:56: -------- Mapchange to cp_vector_v1 --------
+L 12/13/2014 - 16:01:44: -------- Mapchange to pl_waste_v2 --------
+L 12/13/2014 - 16:07:27: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 16:39:34: -------- Mapchange to pl_swiftwater_ugc --------
+L 12/13/2014 - 17:24:19: -------- Mapchange to cp_keikoku_rc1 --------
+L 12/13/2014 - 18:04:28: -------- Mapchange to cp_croissant_final --------
+L 12/13/2014 - 18:39:57: -------- Mapchange to koth_probed_b6 --------
+L 12/13/2014 - 18:53:09: -------- Mapchange to pl_swiftwater_ugc --------
+L 12/13/2014 - 19:35:47: -------- Mapchange to cp_snowplow_rc3 --------
+L 12/13/2014 - 21:20:01: -------- Mapchange to koth_moonshine_rc --------
