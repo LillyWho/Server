@@ -4,6 +4,12 @@
 	{
 		"Offsets"
 		{
+			"Blocked"
+			{
+				"windows"	"105"
+				"linux"		"106"
+				"mac"		"106"
+			}
 			"EndTouch"
 			{
 				"windows"	"103"
@@ -34,17 +40,23 @@
 				"linux"		"68"
 				"mac"		"68"
 			}
-			"PreThink"
+			"OnTakeDamage_Alive"
 			{
-				"windows"	"365"
-				"linux"		"366"
-				"mac"		"366"
+				"windows"	"293"
+				"linux"		"294"
+				"mac"		"294"
 			}
-			"PostThink"
+			"PreThink"
 			{
 				"windows"	"366"
 				"linux"		"367"
 				"mac"		"367"
+			}
+			"PostThink"
+			{
+				"windows"	"367"
+				"linux"		"368"
+				"mac"		"368"
 			}
 			"Reload"
 			{

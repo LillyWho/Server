@@ -298,7 +298,7 @@ native bool:GetPlayerJingleFile(client, String:hex[], maxlength);
  * @param out				Buffer to store the output traffic velocity.
  * @noreturn
  */
-native GetServerNetStats(&Float:in, &Float:out);
+native GetServerNetStats(&Float:inAmount, &Float:outAmout);
 
 /**
  * Equip's a player's weapon.
@@ -331,6 +331,15 @@ native ActivateEntity(entity);
  * @error				Invalid client index, or client not connected.
  */
 native SetClientInfo(client, const String:key[], const String:value[]);
+
+/**
+ * Changes a client's name.
+ *
+ * @param client		Player's index.
+ * @param name			New name.
+ * @error               Invalid client index, or client not connected.
+ */
+native void SetClientName(int client, const char[] name);
 
 /**
  * Gives ammo of a certain type to a player.
