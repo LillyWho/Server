@@ -11,4 +11,3 @@ added plugins:
 	sm_downloader -- resource caching
 	themes plugin -- change the theme of maps randomly (rainy, foggy, early evening, etc) [need special config with maps]
 	motd backpack
-	tf2 workshop map prefetcher
