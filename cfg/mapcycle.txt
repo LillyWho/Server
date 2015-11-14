@@ -1,8 +1,13 @@
+pl_badwater_pro_v8
+pl_abandoned_upward_finalfix
+koth_neurotoxin_s7
+// koth_aperture_science_iii
 // ctf_chaos
 // ctf_mach4
 // koth_sunset_saloon_b1r1
 // cp_meleebarn
 // koth_aperture_science_iiia
+cp_artpass_acegikmo
 cp_aqua
 cp_axle_rc1
 cp_bazillion_rc5
@@ -23,8 +28,8 @@ cp_forest_shrine_a15
 cp_freightyard_b4c
 cp_furnace_rc
 cp_glacier_rc6
-cp_glassworks_rc2
-cp_glassworks_rc3
+// cp_glassworks_rc2
+cp_glassworks_rc6a
 cp_gydan
 cp_hella_a11a
 cp_indulge
@@ -39,7 +44,7 @@ cp_overflow_2
 cp_redfort_b6
 cp_redstone_b2
 cp_silvertrail_rc2
-cp_snowplow_rc3
+cp_snowplow
 cp_stoneyridge_rc1
 cp_sunshine_rc3
 cp_switchback_b5
@@ -49,32 +54,32 @@ cp_vanguard_b9
 cp_vector_v1
 cp_vertical
 cp_zinkenite_b3a
-ctf_aerospace_b3
-ctf_backwards_b1
-ctf_casbah3_b4
-ctf_convoy_v2
-ctf_deliverance_b3
-ctf_desolation_rc1
-ctf_fishy_b4
-ctf_freezers_v2
-ctf_frosty_b1
-ctf_fusion_b2
-ctf_geothermal_b2
+// ctf_aerospace_b3
+// ctf_backwards_b1
+// ctf_casbah3_b4
+// ctf_convoy_v2
+// ctf_deliverance_b3
+// ctf_desolation_rc1
+// ctf_fishy_b4
+// ctf_freezers_v2
+// ctf_frosty_b1
+// ctf_fusion_b2
+// ctf_geothermal_b2
 ctf_haarp
-ctf_installation_v2
-ctf_landfall_rc
-ctf_laynedecker
-ctf_mercy
-ctf_mexico_b4
-ctf_moonwalk_v2
-ctf_npire_v3
-ctf_premuda_b1b
-ctf_quarry_v2
-ctf_slate_b2
-ctf_subterranean
-ctf_system_rc1
-ctf_wildfire_rc
-ctf_wiretap_b1
+// ctf_installation_v2
+// ctf_landfall_rc
+// ctf_laynedecker
+// ctf_mercy
+// ctf_mexico_b4
+// ctf_moonwalk_v2
+// ctf_npire_v3
+// ctf_premuda_b1b
+// ctf_quarry_v2
+// ctf_slate_b2
+// ctf_subterranean
+// ctf_system_rc1
+// ctf_wildfire_rc
+// ctf_wiretap_b1
 dom_cliffhanger_b11
 koth_anthem_b3
 koth_arctic_b3
@@ -90,7 +95,7 @@ koth_namicott_rc4
 koth_nerve
 koth_occult_rc3
 koth_oilfield
-koth_probed_b6
+koth_probed
 koth_quarry_rc5
 koth_quarry_rc5
 koth_railbridge_rc2
@@ -102,10 +107,10 @@ pl_5curve
 pl_alpen_rc1
 pl_angkor_rc1
 pl_auriferous_rc7
-pl_barnblitz_pro4
+pl_barnblitz_pro6
 pl_beerbowl_b6c
 pl_borax_rc2
-pl_borneo_rc3
+//pl_borneo_rc3
 pl_boundary_final
 pl_boundary_final1
 pl_boxcanyon_RC1
