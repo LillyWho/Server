@@ -125,7 +125,7 @@ cp_zinkenite_b3a
 // ctf_frosty_b1
 // ctf_fusion_b2
 // ctf_geothermal_b2
-ctf_haarp
+// ctf_haarp // fastdl version deprecated
 // ctf_installation_v2
 // ctf_landfall_rc
 // ctf_laynedecker
@@ -189,7 +189,7 @@ pl_downpour_pass_b3
 pl_effigy_b5
 pl_escarpment_rc1
 pl_everest_v5_b2
-pl_gloryhole_b1
+// pl_gloryhole_b1
 pl_goldrock_rc1
 pl_great_heights_b3
 pl_halfacre
@@ -206,8 +206,8 @@ pl_problematique_a3
 pl_quagmire
 pl_repository_rc3
 pl_rust_b7
-pl_stroika_b2
-pl_swiftwater_ugc
+// pl_stroika_b2
+pl_swiftwater_ugc // todo: switch to workshop version
 pl_timbermill_rc3c
 pl_vanishingpoint
 pl_vesper_b4.bsp
@@ -219,4 +219,3 @@ plr_highwind_a5
 plr_hysteria_b2
 plr_panic_b2
 plr_yuno_rc1
-push_desolation_rc1
