@@ -1,0 +1,20 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"1.2.1"
+		}
+		"Notes"	"Find a list of my plugins (and links to their threads) at www.doctormckay.com. Changes:"
+		"Notes" " - Fixed double connect messages"
+	}
+	
+	"Files"
+	{
+		"Plugin"	"Path_SM/plugins/botmanager.smx"
+		"Source"	"Path_SM/scripting/botmanager.sp"
+		"Source"	"Path_SM/scripting/mckayupdater.sp"
+		"Source"	"Path_SM/scripting/include/botmanager.inc"
+	}
+}

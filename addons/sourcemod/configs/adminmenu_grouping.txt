@@ -11,7 +11,9 @@ Groups
 	"Alive"					"@alive"
 	"Dead"					"@dead"
 	"Humans"				"@humans"
-	"Current aim"			"@aim"
+	"Current aim"				"@aim"
+	"Team BlU"				"@blue"
+	"Team RED				"@red"
 
 	/* You can enable these if you are using Counter-Strike Source and running the cstrike extension */
 //	"Terrorists"			"@t"
