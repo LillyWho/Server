@@ -195,7 +195,7 @@ pl_great_heights_b3
 pl_halfacre
 pl_jordan_canyon_final
 pl_manngrove_rc5
-pl_metropolis_b5
+pl_metropolis_b5 // todo: switch to workshop version
 pl_millstone
 pl_millstone_rc11
 pl_moonlit_b2
