@@ -1,3 +1,69 @@
+workshop/503134037
+workshop/koth_sekhmet_b3.ugc630617124
+workshop/plr_split_72_a5.ugc456674507
+workshop/cp_sulfur_b3.ugc619869471
+workshop/pass_rift_b8.ugc522651029
+workshop/pl_moonbase_b3.ugc601801525
+workshop/koth_rocktop_rc2.ugc454207393
+workshop/cp_snowlodge_b5.ugc558352341
+workshop/plr_snowdown.ugc567736691 
+workshop/pl_frostward.ugc577236574 
+workshop/koth_jinglejam_rc2.ugc576822778 
+workshop/pd_snowville_v1.ugc567055331
+workshop/pl_clifftop_b3.ugc565392839
+workshop/cp_xmaslab.ugc552201708
+workshop/pl_rocketravine_b5.ugc550974850
+workshop/pl_corrode_rc1.ugc546577989
+workshop/pl_effigy_b7.ugc543841027
+workshop/koth_product_rc8.ugc454272353 
+workshop/plr_haste_b1.ugc454116894 
+workshop/cp_furnace_rc.ugc454147907 
+workshop/koth_landing.ugc490442223 
+workshop/pl_boxcanyon_r2.ugc479915111 
+workshop/pl_eclipse_b1.ugc529340378 
+workshop/koth_ramjam_rc1.ugc459778887 
+workshop/cp_station_b1.ugc458104742 
+workshop/dom_canalzone2_b4.ugc528059824 
+workshop/pl_vesper_b4.ugc528108783 
+workshop/cp_snowcrystal_rc8.ugc504542186 
+workshop/cp_frozen_rc3.ugc480329944 
+workshop/tc_strata_b1c.ugc454653996 
+workshop/cp_snowstation_b1.ugc458104742 
+workshop/pl_retawdab.ugc475731069 
+workshop/cp_gorge_event_rc1a.ugc527145539 
+workshop/cp_sunshine_event_rc3.ugc532473747 
+workshop/ctf_turbine_event_b4.ugc532748178 
+workshop/cp_burghausen_b2_event.ugc454270554 
+workshop/pd_pit_of_death_b2.ugc537319626 
+workshop/koth_eerie_event_b2a.ugc536850172 
+workshop/koth_backwoods_rc2.ugc536897251 
+workshop/koth_moonshine_event_rc3.ugc534874830 
+workshop/cp_alamo_event.ugc525959553 
+workshop/pl_crag_event_c.ugc515556396 
+workshop/cp_overgrown_b3.ugc503939302 
+workshop/cp_bloodcrystal_event.ugc529733200 
+workshop/pl_subzero_a1.ugc456678994 
+workshop/pl_goldrock_rc2.ugc454262056 
+workshop/koth_maple_ridge_b7.ugc454270325 
+workshop/cp_mudwater_b4.ugc454271547 
+workshop/pl_hydropower_event.ugc525367913 
+workshop/koth_spaaaace_beta_01.ugc454142722 
+workshop/sd_pickup.ugc516933863 
+workshop/cp_harbour_b2.ugc460890893 
+workshop/pl_snowycoast_b4.ugc469072819 
+workshop/koth_basin_a6.ugc513753817 
+workshop/koth_dockyard_v3.ugc473451212 
+// workshop/pl_hat_factory_42.ugc519120236 
+workshop/pl_downpour_pass_b4.ugc480195174 
+workshop/ctf_haarp.ugc456481752 
+workshop/koth_stallone_b2.ugc482258894 
+workshop/cp_rooftop_b6.ugc454119773 
+workshop/pl_5curve.ugc454225330 
+workshop/cp_biodome_b1.ugc454132648 
+workshop/pl_canyonfodder_b2.ugc478997719 
+workshop/koth_airfield_b10.ugc454123193 
+workshop/pl_halfacre.ugc454137930 
+workshop/cp_sunshine_event_rc3.ugc532473747
 pl_badwater_pro_v8
 pl_abandoned_upward_finalfix
 koth_neurotoxin_s7
@@ -8,7 +74,6 @@ koth_neurotoxin_s7
 // cp_meleebarn
 // koth_aperture_science_iiia
 cp_artpass_acegikmo
-cp_aqua
 cp_axle_rc1
 cp_bazillion_rc5
 cp_beamvalley_v2
@@ -65,7 +130,7 @@ cp_zinkenite_b3a
 // ctf_frosty_b1
 // ctf_fusion_b2
 // ctf_geothermal_b2
-ctf_haarp
+// ctf_haarp // fastdl version deprecated
 // ctf_installation_v2
 // ctf_landfall_rc
 // ctf_laynedecker
@@ -129,13 +194,13 @@ pl_downpour_pass_b3
 pl_effigy_b5
 pl_escarpment_rc1
 pl_everest_v5_b2
-pl_gloryhole_b1
+// pl_gloryhole_b1
 pl_goldrock_rc1
 pl_great_heights_b3
 pl_halfacre
 pl_jordan_canyon_final
 pl_manngrove_rc5
-pl_metropolis_b5
+pl_metropolis_b5 
 pl_millstone
 pl_millstone_rc11
 pl_moonlit_b2
@@ -146,7 +211,7 @@ pl_problematique_a3
 pl_quagmire
 pl_repository_rc3
 pl_rust_b7
-pl_stroika_b2
+// pl_stroika_b2
 pl_swiftwater_ugc
 pl_timbermill_rc3c
 pl_vanishingpoint
@@ -159,4 +224,3 @@ plr_highwind_a5
 plr_hysteria_b2
 plr_panic_b2
 plr_yuno_rc1
-push_desolation_rc1

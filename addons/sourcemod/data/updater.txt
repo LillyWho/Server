@@ -4,17 +4,15 @@
 	{
 		"Version"
 		{
-			"Latest"	"1.2.1"
+			"Latest"	"1.1.5"
 		}
 		"Notes"	"Find a list of my plugins (and links to their threads) at www.doctormckay.com. Changes:"
-		"Notes" " - Fixed double connect messages"
+		"Notes" " - Fixed an error that occurred if a client left before their data is retreived from the database"
 	}
 	
 	"Files"
 	{
-		"Plugin"	"Path_SM/plugins/botmanager.smx"
-		"Source"	"Path_SM/scripting/botmanager.sp"
-		"Source"	"Path_SM/scripting/mckayupdater.sp"
-		"Source"	"Path_SM/scripting/include/botmanager.inc"
+		"Plugin"	"Path_SM/plugins/itemserver.smx"
+		"Source"	"Path_SM/scripting/itemserver.sp"
 	}
 }

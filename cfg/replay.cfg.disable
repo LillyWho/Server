@@ -1,0 +1,8 @@
+replay_enable 1
+replay_block_dump_interval "15"
+replay_fileserver_protocol "http"
+replay_fileserver_offload_enable "0"
+replay_local_fileserver_path "/var/www/html/tf/replays"
+replay_fileserver_host "46.101.196.91"
+replay_fileserver_port "80"
+replay_fileserver_path "tf/replays"

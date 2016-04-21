@@ -8,6 +8,6 @@ added plugins:
 	-addadmin -- admin editing (groups, flags, immunity levels)
 	-sm_downloader -- resource caching
 	-themes plugin -- change the theme of maps randomly (rainy, foggy, early evening, etc) [need special config with maps]
-	-automatic SRCDS updater
+	-motd backpack
 added SM extensions:
 	-steamtools [requested by plugin]
