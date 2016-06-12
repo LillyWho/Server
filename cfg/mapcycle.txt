@@ -65,8 +65,8 @@ workshop/koth_airfield_b10.ugc454123193
 workshop/pl_halfacre.ugc454137930 
 workshop/cp_sunshine_event_rc3.ugc532473747
 pl_badwater_pro_v8
-pl_abandoned_upward_finalfix
-koth_neurotoxin_s7
+workshop/pl_abandoned_upward_finalfix.ugc454133929
+// koth_neurotoxin_s7
 // koth_aperture_science_iii
 // ctf_chaos
 // ctf_mach4

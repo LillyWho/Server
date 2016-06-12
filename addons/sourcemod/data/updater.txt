@@ -1,18 +1,1295 @@
-"Updater"
-{
-	"Information"
-	{
-		"Version"
-		{
-			"Latest"	"1.1.5"
-		}
-		"Notes"	"Find a list of my plugins (and links to their threads) at www.doctormckay.com. Changes:"
-		"Notes" " - Fixed an error that occurred if a client left before their data is retreived from the database"
-	}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<meta http-equiv="x-ua-compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="generator" content="vBulletin" />
+
 	
-	"Files"
-	{
-		"Plugin"	"Path_SM/plugins/itemserver.smx"
-		"Source"	"Path_SM/scripting/itemserver.sp"
-	}
+<meta name="keywords" content="AMX Mod X,AMX Mod,Metamod,Half-Life Plugins,AMXX,AMX,Plugins,Counter-Strike,CSDM,Deathmatch,Servers,C++" />
+<meta name="description" content="Half-Life/Counter-Strike Server-Side Modding (AMX Mod X, Metamod, and SourceMod), CSDM and SuperHero hosted" />
+	
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'phpBB'; Style ID: 5
+*/
+body
+{
+	background: #E5E5E5;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 10px;
+	padding: 0px;
 }
+a:link, body_alink
+{
+	color: #006699;
+}
+a:visited, body_avisited
+{
+	color: #006699;
+}
+a:hover, a:active, body_ahover
+{
+	color: #DD6900;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 2px solid #006699;
+	
+}
+.tcat
+{
+	background: #C7D0D7 url(images/gradients/gradient_tcat.gif) repeat-x top left;
+	color: #000000;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #006699;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #006699;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #006699;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #C7D0D7 url(images/gradients/gradient_thead.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #EDE1DC;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #EDE1DC;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #EDE1DC;
+	text-decoration: underline;
+}
+.tfoot
+{
+	background: #C7D0D7;
+	color: #000000;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #006699;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #006699;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #006699;
+}
+.alt1, .alt1Active
+{
+	background: #EFEFEF;
+	color: #000000;
+}
+.alt2, .alt2Active
+{
+	background: #EFEFEF;
+	color: #000000;
+}
+.inlinemod
+{
+	background: #D8D8D8;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #FFFFFF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #EFEFEF url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 1px solid #b2b2b2;
+}
+.panelsurround
+{
+	background: #FFFFFF url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #EFEFEF;
+	color: #006699;
+	font: bold 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #006699;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #006699;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #006699;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #BBC7CE;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #006699;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #006699;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #006699;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #8A949E;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 10pt; font-weight: bold; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+
+/* ***** don't change the following ***** */
+form { display: inline; }
+label { cursor: default; }
+.normal { font-weight: normal; }
+.inlineimg { vertical-align: middle; }
+.code 
+{
+ background-color: #DDDDDD;
+ color: #000000;
+}
+.main-page
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  border-left: 1px solid #98AAB1;
+  border-right: 1px solid #98AAB1;
+}
+
+.spacer-page
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  width: auto;
+  display: block;
+  border-right: 1px solid #98AAB1;
+  border-left: 1px solid #98AAB1;
+}
+
+.spacer-page-top
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  width: auto;
+  border-right: 1px solid #98AAB1;
+  border-left: 1px solid #98AAB1;
+  border-top: 1px solid #98AAB1;
+}
+
+.spacer-page-bottom
+{
+  background-color: #FFFFFF;
+  color: #000000;
+  border-right: 1px solid #98AAB1;
+  border-left: 1px solid #98AAB1;
+  border-bottom: 1px solid #98AAB1;
+}
+
+.bpost { background-color: #D1D7DC; border: 1px solid #FFFFFF; padding: 3px; }
+
+.ttop 
+{ 
+  border-left: 2px solid #006699;
+  border-right: 2px solid #006699;
+  border-top: 2px solid #006699;
+}
+.tbottom 
+{ 
+  border-left: 2px solid #006699;
+  border-right: 2px solid #006699;
+  border-bottom: 2px solid #006699;
+}
+.tinside 
+{ 
+  border-left: 2px solid #006699;
+  border-right: 2px solid #006699;
+}
+
+.smalltext
+{
+  font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  font-size: 11px;
+  height: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bcrumbs
+{
+  font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  font-size: 11px;
+  height: 12px;
+  padding: 0px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+.bcrumbs a
+{
+  text-decoration: none;
+}
+.approve
+{
+  background: url(images/buttons/approve.gif) no-repeat;
+  padding: 0px;
+  margin: 0px;
+  width: 75px;
+  height: 18px;
+  border: 0px;
+  cursor: pointer;
+  float: left;
+}
+.unapprove
+{
+  background: url(images/buttons/unapprove.gif) no-repeat;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 2px;
+  width: 75px;
+  height: 18px;
+  border: 0px;
+  cursor: pointer;
+  float: right;
+}
+
+.home-links
+{
+  font-size: 10px;
+  text-decoration: none;
+  padding-right: 2px;
+}
+
+.home-links a
+{
+  font-size: 10px;
+  text-decoration: none;
+  padding-right: 2px;
+}
+
+
+.quote
+{
+  background-color: #FFF;
+  color: #000;
+}
+
+.alt3
+{
+  background-color: #DEE3E7;
+  color: #000;
+  padding: 3px;
+}
+.alt4
+{
+  background-color: #D1D7DC;
+  color: #000;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="clientscript/vbulletin_important.css?v=387" />
+
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=387"></script>
+<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=387"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "s=c10c623be32b104870da2696b7fc5f86&";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+
+<script type="text/javascript" src="clientscript/vbulletin_global.js?v=387"></script>
+
+<script type="text/javascript" src="clientscript/am_plugin_sys.js"></script>
+
+<link rel="alternate" type="application/rss+xml" title="AlliedModders RSS Feed" href="external.php?type=RSS2" />
+
+
+
+
+<style type="text/css" id="memberinfo_css">
+<!--
+#content_container {
+	width:100%;
+	float:left;
+	margin-right:-256px;
+}
+#content {
+	margin-right:256px;
+}
+#sidebar_container {
+	width:250px;
+	float:right;
+}
+
+.list_no_decoration {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+div.fixed_width_avatar {
+	text-align:center;
+	width:60px;
+}
+
+/**
+* Memberinfo Small
+*/
+li.memberinfo_small {
+	margin-top:6px;
+}
+li.memberinfo_small div.fixed_width_avatar {
+	margin-right:6px;
+}
+li.memberinfo_small div.info_bar, #friends li.memberinfo_small div.info_bar {
+	border-width:1px 0px 0px 0px;
+	margin-bottom:6px;
+}
+li.memberinfo_small div.info_bar ul {
+	padding:6px;
+}
+li.memberinfo_small ul.friend_im_list li {
+	display:inline;
+	margin-right:3px;
+}
+li.memberinfo_small ul.friend_im_list img {
+	vertical-align:middle;
+}
+
+/**
+* Memberinfo Tiny
+*/
+li.memberinfo_tiny {
+	height:105px;
+	width:75px;
+	overflow:hidden;
+	float:left;
+	text-align:center;
+	margin:1px;
+}
+
+/**
+* Tabs and Blocks
+*/
+.content_block {
+	margin-bottom:6px;
+	padding:1px;
+}
+.content_block .block_row {
+	padding:6px;
+	margin:1px 0px 0px 0px;
+}
+.content_block .block_title {
+	padding:6px;
+	margin:0px 0px 0px 0px;
+}
+/*.content_block h4.thead, .content_block .block_title {
+	padding:4px;
+	margin:1px 0px 0px 0px;
+}*/
+.content_block .block_footer {
+	text-align:right;
+	padding:4px;
+	margin:1px 0px 0px 0px;
+}
+a.collapse_gadget {
+	float:right;
+}
+
+/**
+* Popup Menus Built With List Markup
+*/
+ul.vbmenu_popup li {
+	padding:4px;
+	margin:0px 1px 1px 1px;
+	white-space:nowrap;
+}
+ul.vbmenu_popup li.first {
+	margin:1px;
+}
+ul.vbmenu_popup li.notext {
+	font-size:1px;
+}
+
+/**
+* Override Menu CSS for 'Send Message' Menu
+*/
+#minicontact_menu li.vbmenu_option, #minicontact_menu li.vbmenu_hilite {
+	padding:0px;
+	padding-right:4px;
+}
+#minicontact_menu li.vbmenu_option img, #minicontact_menu li.vbmenu_hilite img {
+	padding:4px;
+}
+
+/**
+* Profile Field List Title / Value Pairs
+*/
+dl.profilefield_list dd {
+	margin-bottom:3px;
+	margin-left:16px;
+}
+
+/**
+* Sidebar profile field blocks
+*/
+#sidebar_container dl.profilefield_list {
+	font-size:11px;
+}
+
+/**
+* Top Panel
+*/
+#main_userinfo {
+	margin-bottom:20px;
+}
+#main_userinfo #profilepic_cell {
+	 border-bottom-width:0px;
+	 padding:4px;
+}
+#main_userinfo .profilepic_adjacent {
+	padding-left:6px;
+}
+#main_userinfo h1 {
+	font-size:18pt;
+	font-weight:normal;
+	margin:0px;
+}
+#main_userinfo h2 {
+	font-size:10pt;
+	font-weight:normal;
+	margin:0px;
+}
+#reputation_rank {
+	float:right;
+}
+#reputation {
+	margin-bottom:6px;
+	text-align:right;
+}
+#rank {
+	margin-bottom:6px;
+	text-align:right;
+}
+#send_message_cell {
+	padding-bottom:6px;
+	text-align:right;
+}
+#link_bar ul {
+	padding:4px;
+}
+#link_bar li.thead {
+	float:left;
+	margin-right:10px;
+	white-space:nowrap;
+	font-weight:normal;
+	background:transparent;
+}
+#link_bar a {
+	text-decoration:none;
+}
+#link_bar a:hover {
+	text-decoration:underline;
+}
+#activity_info {
+	border-top-width:0px;
+}
+#activity_info div.alt2 {
+	padding:4px;
+}
+#link_bar #usercss_switch_link {
+	float:right;
+	margin-left:3px;
+	margin-right:0px;
+}
+
+/**
+* Visitor Messaging Tab
+*/
+
+#qc_error_div {
+	text-align:left;
+	margin-bottom:6px;
+}
+#qc_error_header {
+	font-weight:bold;
+}
+#qc_error_okay {
+	text-align:right;
+}
+
+#message_form {
+	display:block;
+	margin:0px;
+}
+#message_form textarea {
+	width:98%;
+	height:50px;
+}
+#message_form div.messagetext {
+	text-align:left;
+}
+#message_form div.allowed_bbcode {
+	float:left;
+}
+#message_form div.submit_button {
+	text-align:right;
+}
+
+#visitor_messaging #inlinemodsel {
+	float:right;
+}
+
+#visitor_messaging #view_my_conversation_link {
+	float:right;
+	text-decoration:none;
+}
+
+#visitor_message_inlinemod_form {
+	margin:0px;
+	display:block;
+}
+
+#message_list {
+	border:none;
+}
+#message_list li {
+	margin-bottom:6px;
+}
+#message_list div.fixed_width_avatar {
+	margin-right:6px;
+	float:left;
+}
+#message_list div.visitor_message_avatar_margin {
+	margin-left:66px;
+}
+#message_list div.info_bar {
+	border-width:1px 0px 0px 0px;
+	margin-bottom:6px;
+}
+#message_list div.info_bar div.alt2 {
+	padding:6px;
+}
+#message_list div.info_bar a.username {
+	/*font-weight:bold;*/
+}
+#message_list .visitor_message_date {
+	float:right;
+}
+#message_list .group_message_date {
+	float:right;
+}
+#message_list .inlinemod_checkbox {
+	float:right;
+}
+#message_list div.visitor_message_body {
+	overflow:auto;
+}
+#message_list ul.controls {
+	margin-top:6px;
+	text-align:right;
+}
+#message_list ul.controls li {
+	display:inline;
+	margin-left:6px;
+}
+#message_list ul.controls a:link, #message_list ul.controls a:visited {
+	text-decoration:none;
+}
+#message_list .deletedmessage{
+	float: left
+}
+
+/**
+* About Me Tab
+*/
+#aboutme li.profilefield_category {
+	font-weight:bold;
+	margin-top:6px;
+}
+#aboutme dl.profilefield_list {
+	font-weight:normal;
+	margin:6px 16px 0px 16px;
+}
+#aboutme dl.profilefield_list dd {
+	margin-bottom:6px;
+	margin-left:0px;
+}
+#aboutme #signature {
+	width:100%;
+	overflow:auto;
+}
+#aboutme #simple_aboutme_link {
+	text-align: right;
+	display: block;
+}
+
+/**
+* About Me Tab (Alternative)
+*/
+#aboutme2 dl.profilefield_list dd {
+	margin-bottom:6px;
+	margin-left:0px;
+}
+
+/**
+* Statistics Tab
+*/
+#stats fieldset.statistics_group {
+	margin-top:6px;
+}
+#stats fieldset.statistics_group ul {
+	padding:6px;
+}
+#stats fieldset.statistics_group ul li {
+	margin-bottom:3px;
+}
+
+/**
+* Statistics Tab (Alternative)
+*/
+#statistics2 ul.statistics_group li {
+	margin-bottom:3px;
+}
+
+/**
+* Friends Tab
+*/
+#friends a.edit_friends_link {
+	float:right;
+}
+#friends_mini a.edit_friends_link {
+	float:right;
+	margin-left:10px;
+}
+
+/**
+* Infractions Tab
+*/
+div#infractions.content_block {
+	padding:0px;
+}
+
+/**
+* Contact Info Tab
+*/
+#contactinfo fieldset {
+	margin-bottom:6px;
+}
+#contactinfo div.fieldset_padding {
+	padding:6px;
+}
+#contactinfo #messaging_list li {
+	margin-bottom:3px;
+	margin-right:16px;
+	float:left;
+	white-space:nowrap;
+}
+#contactinfo #instant_messaging_list li {
+	margin-top:6px;
+	margin-right:6px;
+	position:relative;
+}
+#contactinfo #instant_messaging_list .im_img_link {
+	vertical-align: middle;
+}
+#contactinfo #instant_messaging_list .im_txt_link {
+	position:absolute;
+	left:75px;
+}
+#contactinfo #additional_contact_details dd {
+	margin-left:0px;
+	margin-bottom:6px;
+}
+
+/**
+* Albums Block
+*/
+#albums_mini_list li {
+	text-align:center;
+	margin-bottom:6px;
+}
+
+/**
+* Mini Friends Block
+*/
+
+#friends_mini_list a.username {
+	display:block;
+	margin-top:3px;
+}
+#friends_mini div.friends_counter {
+	padding-bottom:6px;
+}
+
+/**
+* Groups Block
+*/
+span.group_count {
+	float:right;
+}
+ul.group_list {
+	margin:6px 0px 0px 6px;
+}
+ul.group_list li {
+	display:inline;
+	margin-right:3px;
+}
+#public_usergroup_list a:link, #public_usergroup_list a:visited {
+	text-decoration:none;
+}
+
+/**
+* Traffic Block
+*/
+ol.last_visitors_list {
+	margin:0px;
+	margin-top:6px;
+}
+ol.last_visitors_list li {
+	display:inline;
+	margin-right:3px;
+}
+
+
+-->
+</style>
+<style type="text/css" id="vbulletin_tabctrl_css">
+@import url("clientscript/vbulletin_tabctrl.css?v=387");
+
+</style>
+
+<script type="text/javascript" src="clientscript/vbulletin_tabctrl.js?v=387"></script>
+<script type="text/javascript" src="clientscript/vbulletin_quick_edit_generic.js?v=387"></script>
+<script type="text/javascript" src="clientscript/vbulletin_quick_edit_visitormessage.js?v=387"></script>
+
+<title>AlliedModders - View Profile: GoD-Tony</title>
+
+
+<script type="text/javascript">
+<!--
+vbphrase['server_failed_respond_try_again'] = "The server failed to respond in time. Please try again.";
+vbphrase['edit_value'] = "Edit Value";
+
+
+-->
+</script>
+
+</head>
+<body>
+
+<!-- content table -->
+
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 10px 0px 10px" align="left">
+
+
+<!-- logo -->
+<br />
+<a name="top"></a>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+<tr>
+	<td align="left"> <a href="index.php?s=c10c623be32b104870da2696b7fc5f86">
+	<img src="images/misc/am-banner.png" border="0" alt="AlliedModders" id="forum_logo" />
+	</a></td>
+	<td align="right" style="padding-right: 10px; padding-top: 10px;">
+<!-- breadcrumb, login, pm info -->
+<div style="background-color: #EFEFEF; width: 425px; border: 1px solid #000000;" align="center">
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div align="center">
+	<table cellpadding="6" cellspacing="0" border="0" width="425" align="center" style="border-top-width:0px">
+	<tr align="left">
+		<td class="vbmenu_control" width="125">
+			
+				<a href="misc.php?s=c10c623be32b104870da2696b7fc5f86&do=showrules">Rules</a>
+			
+		</td>
+		<td class="vbmenu_control" width="75"><a href="faq.php?s=c10c623be32b104870da2696b7fc5f86" accesskey="5">FAQ</a></td>
+		<td class="vbmenu_control" width="150"><a href="memberlist.php?s=c10c623be32b104870da2696b7fc5f86">Members List</a></td>
+		
+			
+				<td class="vbmenu_control" width="75"><a href="search.php?s=c10c623be32b104870da2696b7fc5f86" accesskey="4">Search</a></td>
+			
+		
+	</tr>
+	<tr align="left">
+	
+		
+		
+			<td class="vbmenu_control" width="75"><a href="register.php?s=c10c623be32b104870da2696b7fc5f86" rel="nofollow">Register</a></td>
+<td class="vbmenu_control" width="125"><a href="login.php">Login</a></td>
+
+		
+
+						
+
+		
+		
+	</tr>
+	</table>
+</div>
+<!-- / nav buttons bar -->
+</div>
+
+
+<br />
+
+<div style="background-color: #EFEFEF; width: 425px; border: 1px solid #000000;" align="center">
+  <div align="center">
+    <table cellpadding="0" cellspacing="0" border="0" width="425" align="center" style="border-top-width:0px">
+      <tr align="center">
+        <td class="vbmenu_control"><a href="http://sourcemod.net/donate.php"><img src="/images/btn_donate_SM.gif" /></a></td>
+        <td class="vbmenu_control">Monthly Target: $400</td>
+        <td class="vbmenu_control"><a href="http://sourcemod.net/halloffame.php">Donations: $110</a></td>
+      </tr>
+      <tr align="left">
+        <td colspan="3">
+          <div style="border-top: 1px solid;">
+            <div style="background: #069; color: white; font-weight: bold; font-size: 9pt; text-align: right; width: 27%;">
+              &nbsp;27%&nbsp;
+
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<!-- Sponsor links -->
+<div align="center">
+
+</div>
+<!-- / Sponsor links -->
+
+<br />
+
+
+
+
+
+
+	</td>
+</tr>
+</table>
+<!-- /logo -->
+
+
+<!-- begin user css -->
+<div id="usercss" class="floatcontainer">
+
+<div id="content_container">
+	<div id="content">
+
+		<div id="main_userinfo" class="floatcontainer">
+			<!-- link bar -->
+			<div class="tborder content_block" id="link_bar">
+				<ul class="thead block_row block_title list_no_decoration floatcontainer">
+					
+						
+					
+
+					
+
+					
+
+					
+
+					
+
+				</ul>
+
+		<div class="alt2">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				
+				<td class="alt2"><img src="customavatars/thumbs/avatar6136_1.gif" alt="GoD-Tony's Avatar" class="alt2" id="user_avatar" />
+				<script type="text/javascript">
+				<!--
+					var avatar = document.getElementById('user_avatar');
+					var newloc = avatar.src.replace("thumbs/", "");
+					avatar.src = newloc;
+				-->
+				</script>
+				</td>
+				
+			<td valign="top" width="100%" id="username_box">
+			<!-- current activity -->
+				<div class="alt2 block_row" id="activity_info">
+					
+					<h1>GoD-Tony <img class="inlineimg" src="images/statusicon/user_offline.gif" alt="GoD-Tony is offline" border="0" />
+
+</h1>
+					
+						<div class="smallfont">Veteran Member</div>
+					
+				</div>
+				<div class="alt2 smallfont block_row">
+					
+					
+				</div>
+			<!-- / current activity -->
+			</td>
+			</tr>
+			</table>
+		</div>
+
+			</div>
+			<!-- / link bar -->
+
+			<!-- user list menu -->
+			<ul id="userlists_menu" class="vbmenu_popup list_no_decoration" style="display: none">
+				<li class="thead first">User Lists</li>
+				
+				
+				
+				
+				
+				
+			</ul>
+
+			
+	</div>
+
+	<div id="profile_tabs">
+		
+		
+		
+		<!-- stats -->
+<div id="stats" class="tborder content_block">
+	<h4 class="thead block_title">
+		<a href="#top" class="collapse_gadget" onclick="return toggle_collapse('stats')"><img id="collapseimg_stats" src="images/buttons/collapse_generic.gif" alt="" border="0" /></a>
+		<a name="stats"></a>
+		<span class="block_name">Statistics</span>
+	</h4>
+	<div class="block_content" id="collapseobj_stats" style=""><div class="alt1 block_row">
+	
+
+	<fieldset class="statistics_group">
+		<legend>Total Posts</legend>
+		<ul class="list_no_decoration">
+			<li><span class="shade">Total Posts:</span> 1,919</li>
+			<li><span class="shade">Posts Per Day:</span> 0.48</li>
+			
+			<li><a href="search.php?s=c10c623be32b104870da2696b7fc5f86&amp;do=finduser&amp;u=6136" rel="nofollow">Find all posts by GoD-Tony</a></li>
+			<li><a href="search.php?s=c10c623be32b104870da2696b7fc5f86&amp;do=finduser&amp;u=6136&amp;starteronly=1" rel="nofollow">Find all threads started by GoD-Tony</a></li>
+		</ul>
+	</fieldset>
+
+	
+	
+
+	
+
+	
+
+	<fieldset class="statistics_group">
+		<legend>General Information</legend>
+		<ul class="list_no_decoration">
+			
+			
+			<li><span class="shade">Join Date:</span> 07-17-2005</li>
+			<li><span class="shade">Referrals:</span> 2</li>
+			
+		</ul>
+	</fieldset>
+
+	
+</div></div>
+</div>
+<!-- / stats -->
+		
+		
+		
+		
+	</div>
+
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_TabCtrl", "profile_tabs", "", "&raquo;", "profile.php?u=2&do=loadtab&tabid={1:tabid}");
+	//-->
+	</script>
+
+</div>
+</div>
+
+<div id="sidebar_container">
+	<!-- sidebar -->
+	
+	<!-- stats_mini -->
+<div id="stats_mini" class="tborder content_block">
+	<h4 class="thead block_title">
+		<a href="#top" class="collapse_gadget" onclick="return toggle_collapse('stats_mini')"><img id="collapseimg_stats_mini" src="images/buttons/collapse_generic.gif" alt="" border="0" /></a>
+		<a name="stats_mini"></a>
+		<span class="block_name">Mini Statistics</span>
+	</h4>
+	<div class="block_content" id="collapseobj_stats_mini" style=""><div class="alt1 block_row">
+	<table cellpadding="0" cellspacing="0" border="0">
+	<tr valign="top">
+		<td width="100%">
+			<dl class="smallfont list_no_decoration profilefield_list">
+				
+				<dt class="shade">Join Date</dt>
+				<dd>07-17-2005</dd>
+				<dt class="shade">Total Posts</dt>
+				<dd>1,919</dd>
+				
+			</dl>
+		</td>
+		
+	</tr>
+	</table>
+</div>
+<div class="alt2 smallfont block_row block_footer"><a href="#stats" onclick="return vB_TabCtrls['profile_tabs'].switch_tab('stats')">Show All Statistics</a></div></div>
+</div>
+<!-- / stats_mini -->
+	
+	
+	
+	
+	
+	
+	
+	<!-- / sidebar -->
+</div>
+
+<!-- end usercss -->
+</div>
+
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 10px 0px 10px" align="left">
+
+<br />
+<div class="smallfont" align="center">All times are GMT -4. The time now is <span class="time">15:38</span>.</div>
+<br />
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- /content area table -->
+
+<form action="index.php" method="get">
+	
+<table cellpadding="6" cellspacing="0" border="0" width="100%" class="page" align="center">
+<tr>
+	
+	
+	<td class="tfoot" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				
+				<a href="https://alliedmods.net/dmca">DMCA</a> -
+				
+				
+				<a href="archive/index.php">Archive</a> -
+				
+				<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	Powered by vBulletin&reg;<br />Copyright &copy;2000 - 2016, vBulletin Solutions, Inc.<br />
+	<!-- Do not remove this copyright notice -->
+	Theme made by Freecode
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	
+	
+	</div>
+</div>
+
+</form>
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+
+</script>
+
+
+</body>
+</html>
